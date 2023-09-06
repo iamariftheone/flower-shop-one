@@ -6,10 +6,20 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px 20px 43px;
+  border: 0;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 /* Header Styles */
-header {
-}
 .header-banner {
   display: flex;
   padding: 50px 240px 0px 240px;
@@ -19,9 +29,6 @@ header {
 }
 .header-information1 {
   margin-right: 70px;
-  width: 50%;
-}
-.header-information2 {
   width: 50%;
 }
 
@@ -42,15 +49,73 @@ header {
   line-height: 30px;
   margin: 32px 0px 32px 0px;
 }
-.btn-primary {
-  border-radius: 8px;
-  background: #e55473;
-  padding: 20px 43px 20px 43px;
-  border: 0;
-  color: #fff;
+/* Featured Flowers Section Style */
+.featured-flowers-info-container {
+  text-align: center;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
   font-family: Lato;
-  font-size: 20px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 650px 0px 650px;
+}
+/* Featured Flower Section Style  */
+.featured-flowers {
+  margin-top: 128px;
+}
+.featured-flowers-detail-container {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    gap: 24px;
+    justify-content: center;
+.flower-info-images {
+  text-align: center;
+}
+.flower-img-title {
+  margin-top: 32px;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 35px; /* 145.833% */
+  text-decoration-line: underline;
+}
+.flower-image-container1 {
+  border-radius: 300px 300px 0px 0px;
+  padding: 114px 78px 0px 78px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower-image-container2 {
+  border-radius: 300px 300px 0px 0px;
+  padding: 117px 48px 50px 48px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower-image-container3 {
+  border-radius: 300px 300px 0px 0px;
+  padding: 67px 75px 0px 75px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.flower-img1 {
+  width: 310px;
+}
+.flower-img2 {
+  width: 370px;
+}
+.flower-img3 {
+  width: 314px;
 }
