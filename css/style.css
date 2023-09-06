@@ -119,3 +119,6 @@ body {
 .flower-img3 {
   width: 314px;
 }
+.features-section{
+  display: flex;
+}
